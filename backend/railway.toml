@@ -1,9 +1,8 @@
 [build]
 builder = "NIXPACKS"
-buildCommand = "go build -o server ."
 
 [deploy]
-startCommand = "./server"
+startCommand = "go run main.go handlers.go models.go"
 healthcheckPath = "/health"
 healthcheckTimeout = 100
 restartPolicyType = "ON_FAILURE"
