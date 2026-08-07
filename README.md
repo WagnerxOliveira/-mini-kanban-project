@@ -3,7 +3,7 @@
 > Aplicação fullstack de gerenciamento de tarefas no estilo Kanban, desenvolvida como desafio técnico.
 
 🔗 **[Ver Demo no Vercel](https://mini-kanban-frontend-delta.vercel.app)**  
-🚂 **Backend hospedado no Railway** ← *configure após o deploy do backend*
+🚂 **[Backend API no Railway](https://mini-kanban-project-production.up.railway.app)**
 
 ---
 
