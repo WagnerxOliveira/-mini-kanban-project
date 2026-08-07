@@ -1,6 +1,5 @@
 [build]
 builder = "NIXPACKS"
-buildCommand = "cd backend && go build -o server ."
 
 [deploy]
 startCommand = "cd backend && ./server"
